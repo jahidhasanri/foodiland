@@ -6,9 +6,11 @@ import '../index.css'
 
 const Main = () => {
     return (
-        <div className=''>
+        <div className='bg-white'>
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className="min-h-[calc(100vh-341px)]">
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );

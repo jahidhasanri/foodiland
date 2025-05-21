@@ -19,11 +19,11 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className='hidden lg:flex gap-[60px]'>
-          <NavLink className='text-[16px] font-medium'>Home</NavLink>
-          <NavLink className='text-[16px] font-medium'>Recipes</NavLink>
-          <NavLink className='text-[16px] font-medium'>Blog</NavLink>
-          <NavLink className='text-[16px] font-medium'>Contact</NavLink>
-          <NavLink className='text-[16px] font-medium'>About Us</NavLink>
+          <NavLink className='text-[16px] font-medium text-black'>Home</NavLink>
+          <NavLink className='text-[16px] font-medium text-black'>Recipes</NavLink>
+          <NavLink className='text-[16px] font-medium text-black'>Blog</NavLink>
+          <NavLink className='text-[16px] font-medium text-black'>Contact</NavLink>
+          <NavLink className='text-[16px] font-medium text-black'>About Us</NavLink>
         </div>
 
         {/* Social Icons */}
@@ -45,11 +45,11 @@ const Navbar = () => {
       {isOpen && (
         <div className='lg:hidden  pb-6'>
           <div className='flex flex-col gap-4'>
-            <NavLink className='text-[16px] font-medium'>Home</NavLink>
-            <NavLink className='text-[16px] font-medium'>Recipes</NavLink>
-            <NavLink className='text-[16px] font-medium'>Blog</NavLink>
-            <NavLink className='text-[16px] font-medium'>Contact</NavLink>
-            <NavLink className='text-[16px] font-medium'>About Us</NavLink>
+            <NavLink className='text-[16px] font-medium text-black'>Home</NavLink>
+            <NavLink className='text-[16px] font-medium text-black'>Recipes</NavLink>
+            <NavLink className='text-[16px] font-medium text-black'>Blog</NavLink>
+            <NavLink className='text-[16px] font-medium text-black'>Contact</NavLink>
+            <NavLink className='text-[16px] font-medium text-black'>About Us</NavLink>
           </div>
           
         </div>
