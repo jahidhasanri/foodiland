@@ -4,6 +4,7 @@ import Category from '../Components/Category';
 import Recipics from '../Components/Recipics';
 import Chef from '../Components/Chef';
 import CheckOut from '../Components/CheckOut';
+import DeliciousRecipi from '../Components/DeliciousRecipi';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Recipics></Recipics>
             <Chef></Chef>
             <CheckOut></CheckOut>
+            <DeliciousRecipi></DeliciousRecipi>
         </div>
     );
 };
