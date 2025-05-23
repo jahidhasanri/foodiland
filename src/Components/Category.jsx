@@ -18,7 +18,7 @@ const Category = () => {
   const visibleData = showAll ? data : data.slice(0, 5);
 
   return (
-    <div className="mt-[50px] container mx-auto mb-[153px]">
+    <div className="mt-[50px] container mx-auto mb-[70px]">
       <div className="md:flex items-center justify-between mb-10">
         <h1 className="text-[48px] font-semibold text-black">Categories</h1>
         <button
