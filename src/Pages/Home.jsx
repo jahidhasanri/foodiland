@@ -3,6 +3,7 @@ import Banner from '../Components/Banner';
 import Category from '../Components/Category';
 import Recipics from '../Components/Recipics';
 import Chef from '../Components/Chef';
+import CheckOut from '../Components/CheckOut';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Category></Category>
             <Recipics></Recipics>
             <Chef></Chef>
+            <CheckOut></CheckOut>
         </div>
     );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Chef = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto mb-10 md:mb-20 lg:mb-32'>
             <div className='lg:flex gap-11 items-center justify-between'>
                 <div>
                     <h1 className='font-semibold text-[20px] lg:text-[48px] text-black mb-[23px]'>Everyone can be a <br />
