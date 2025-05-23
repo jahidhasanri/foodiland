@@ -83,7 +83,7 @@ const DeliciousRecipi = () => {
            <div className='md:flex justify-around items-center mb-[79px]'>
             <h2 className='text-[48px] font-semibold text-black'>Try this delicious recipe <br />
             to make your day</h2>
-            <p className='text-[16px] font-normal w-[620px]'>Try this irresistibly delicious recipe to brighten your day, lift your mood, and treat your taste buds to something truly unforgettable!</p>
+            <p className='text-[16px] font-normal lg:w-[620px]'>Try this irresistibly delicious recipe to brighten your day, lift your mood, and treat your taste buds to something truly unforgettable!</p>
            </div>
              <div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
                {data.map((item, index) => (
